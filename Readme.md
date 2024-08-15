@@ -1,11 +1,15 @@
-Welcome to the Employee Payroll System project in Java! This repository contains a comprehensive example of building a terminal-based Employee Payroll System using Object-Oriented Programming (OOP) principles. Through this project, you'll learn how to design and implement abstract classes, concrete subclasses, and explore inheritance, encapsulation, abstraction, and polymorphism in Java.
+# Employee Payroll System
+Welcome to the Employee Payroll System project in Java! This repository showcases how to build a terminal-based Employee Payroll System using fundamental Object-Oriented Programming (OOP) principles in Java. This project provides an excellent opportunity to deepen your understanding of core OOP concepts: encapsulation, inheritance, abstraction, and polymorphism.
 
-🔍 Project Highlights:
+# Project Highlights:
+# Encapsulation:
+The Employee Payroll System ensures that the data (attributes) of each employee class is protected from unauthorized access by using private access modifiers. Methods like getters and setters are used to control access and modifications to these attributes, encapsulating the internal state and ensuring data integrity.
 
-Abstract Employee class serving as the foundation for different employee types.
-Concrete subclasses FullTimeEmployee and PartTimeEmployee with salary calculation.
-A user-friendly terminal interface for easy interaction and data management.
-Demonstrates core OOP concepts with practical coding examples.
-Complete source code and step-by-step guide for better understanding.
-🚀 Ready to dive in and enhance your Java skills? Whether you're a beginner eager to learn or an experienced developer brushing up on your OOP knowledge, this project is designed to provide valuable insights and hands-on experience. Clone this repository, explore the code, and take your Java programming skills to the next level.
+# Inheritance:
+This project demonstrates how to use inheritance by creating an abstract Employee class, which serves as a blueprint for other employee types. Subclasses like FullTimeEmployee and PartTimeEmployee inherit common properties and behaviors from the Employee class, promoting code reuse and a clear hierarchical structure.
 
+# Abstraction:
+Abstraction is implemented by defining the Employee class as abstract. This allows the project to hide the complex details of salary calculations and other functions while exposing only essential features to the users. The abstract class provides a template that the concrete subclasses must follow, ensuring consistency across different employee types.
+
+# Polymorphism:
+Polymorphism is illustrated through method overriding, where subclasses like FullTimeEmployee and PartTimeEmployee provide specific implementations of methods defined in the Employee class. This enables the system to process different employee objects uniformly while allowing each subclass to define its unique behavior.
